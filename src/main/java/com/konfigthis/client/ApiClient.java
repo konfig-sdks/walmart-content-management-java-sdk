@@ -59,7 +59,7 @@ import com.konfigthis.client.auth.ApiKeyAuth;
  */
 public class ApiClient extends ApiClientCustom {
 
-    private String basePath = "http://localhost";
+    private String basePath = "https://marketplace.walmartapis.com/v3/feeds";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private Map<String, String> defaultCookieMap = new HashMap<String, String>();
@@ -187,7 +187,7 @@ public class ApiClient extends ApiClientCustom {
     /**
      * Set base path
      *
-     * @param basePath Base path of the URL (e.g http://localhost)
+     * @param basePath Base path of the URL (e.g https://marketplace.walmartapis.com/v3/feeds)
      * @return An instance of OkHttpClient
      */
     public ApiClient setBasePath(String basePath) {

@@ -10,7 +10,7 @@ public class SimpleTest {
     @Test
     public void initClientTest() {
         Configuration configuration = new Configuration();
-        configuration.host = "http://localhost";
+        configuration.host = "https://marketplace.walmartapis.com/v3/feeds";
         
         configuration.clientId  = "YOUR API KEY";
         

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 [![Visit Walmart](./header.png)](https://developer.walmart.com&#x2F;)
 
@@ -110,7 +110,7 @@ import java.util.UUID;
 public class Example {
   public static void main(String[] args) {
     Configuration configuration = new Configuration();
-    configuration.host = "http://localhost";
+    configuration.host = "https://marketplace.walmartapis.com/v3/feeds";
     
     configuration.clientId  = "YOUR API KEY";
     
@@ -166,7 +166,7 @@ public class Example {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://marketplace.walmartapis.com/v3/feeds*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

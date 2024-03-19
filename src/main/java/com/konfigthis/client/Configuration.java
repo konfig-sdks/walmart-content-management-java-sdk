@@ -16,7 +16,7 @@ package com.konfigthis.client;
 public class Configuration {
     private static ApiClient defaultApiClient = new ApiClient();
     public boolean verifyingSsl = true;
-    public String host = "http://localhost";
+    public String host = "https://marketplace.walmartapis.com/v3/feeds";
     public String clientId;
     public String privateKey;
 

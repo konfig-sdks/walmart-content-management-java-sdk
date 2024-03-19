@@ -7,7 +7,7 @@ info:
   x-konfig-has-globally-required-security: true
   x-konfig-uses-multipart-form-data: true
 servers:
-- url: /
+- url: https://marketplace.walmartapis.com/v3/feeds
 security:
 - clientId: []
   privateKey: []

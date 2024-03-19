@@ -1,6 +1,6 @@
 # FeedsApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://marketplace.walmartapis.com/v3/feeds*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
@@ -35,7 +35,7 @@ import java.util.UUID;
 public class Example {
   public static void main(String[] args) {
     Configuration configuration = new Configuration();
-    configuration.host = "http://localhost";
+    configuration.host = "https://marketplace.walmartapis.com/v3/feeds";
     
     configuration.clientId  = "YOUR API KEY";
     
@@ -146,7 +146,7 @@ import java.util.UUID;
 public class Example {
   public static void main(String[] args) {
     Configuration configuration = new Configuration();
-    configuration.host = "http://localhost";
+    configuration.host = "https://marketplace.walmartapis.com/v3/feeds";
     
     configuration.clientId  = "YOUR API KEY";
     
@@ -255,7 +255,7 @@ import java.util.UUID;
 public class Example {
   public static void main(String[] args) {
     Configuration configuration = new Configuration();
-    configuration.host = "http://localhost";
+    configuration.host = "https://marketplace.walmartapis.com/v3/feeds";
     
     configuration.clientId  = "YOUR API KEY";
     
@@ -375,7 +375,7 @@ import java.util.UUID;
 public class Example {
   public static void main(String[] args) {
     Configuration configuration = new Configuration();
-    configuration.host = "http://localhost";
+    configuration.host = "https://marketplace.walmartapis.com/v3/feeds";
     
     configuration.clientId  = "YOUR API KEY";
     
